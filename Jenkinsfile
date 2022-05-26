@@ -16,7 +16,7 @@ pipeline{
         stage('sourcecode'){
             steps{
                 git url: 'https://github.com/ashishdevops123/openmrs.git',
-                    branch: 'prod'
+                    branch: 'master'
                 
             }
         }
